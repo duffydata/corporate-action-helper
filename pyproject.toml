@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "corporate-action-helper"
+version = "0.1.0"
+description = "Corporate Action Tools"
+authors = ["Robert Duffy"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+voila = "^0.5.5"
+jupyterlab = "^4.0.11"
+ipywidgets = "^8.1.1"
+pandas = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

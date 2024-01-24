@@ -1,4 +1,40 @@
-# corporate-action-helper
+## Dependencies
+
+1. Clone Repository 
+
+https://github.com/duffydata/corporate-action-helper.git 
+
+cd /path/to/your/project
+
+2. Set up Virtual Enviroment 
+
+python3 -m venv venv
+ 
+source venv/bin/activate
+
+3. Set up Poetry and Dependencies 
+
+poetry env use python3.x  # use versions greater than 3.8
+poetry install
+poetry shell
+poetry add ipywidgets
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+poetry add voila
+
+Use can use pip install if you're not using Poetry to manage dependencies
+
+# Run Voila for a specific notebook
+
+We're now ready to run notebook in Voila. Use the below command:
+
+poetry run voila CorporateActionCalculator.ipynb
+ 
+A local version of the notebook should be now automatically generated using Voila 
+
+# Corporate Action Calculator
 
 Theoretical Open Price Calculator (TOPC) serves as a valuable tool for efficiently computing the Theoretical Open Price of securities on the ex-date of a Corporate Action. This notebook provides a quick efficient way of calculating theoretical open prices for various Corporate Actions, including Cash Dividends, Splits, Rights Issues, and Spin Offs.
 
