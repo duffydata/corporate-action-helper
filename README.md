@@ -1,18 +1,14 @@
 ## Dependencies
 
-1. Clone Repository 
+1. Clone Repository: https://github.com/duffydata/corporate-action-helper.git 
 
-https://github.com/duffydata/corporate-action-helper.git 
-
-cd /path/to/your/project
-
-2. Set up Virtual Enviroment 
+2. Set up Virtual Enviroment using the following command:  
 
 python3 -m venv venv
  
 source venv/bin/activate
 
-3. Set up Poetry and Dependencies 
+3. We use poetry for managing dependencies. To install Poetry please follow the below steps: 
 
 poetry env use python3.x  # use versions greater than 3.8
 poetry install
@@ -24,11 +20,11 @@ jupyter nbextension enable --py widgetsnbextension --sys-prefix
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 poetry add voila
 
-Use can use pip install if you're not using Poetry to manage dependencies
 
 # Run Voila for a specific notebook
 
-We're now ready to run notebook in Voila. Use the below command:
+Voila is a great extension to 'productionise jupyter notebooks'. Used with  Ipywidgets, your notebooks turn into interactive dashboards. 
+To use Voila follow below steps: 
 
 poetry run voila CorporateActionCalculator.ipynb
  
