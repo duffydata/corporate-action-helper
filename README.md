@@ -2,7 +2,7 @@
 
 **What is the Corporate Action Calculator?**
 
-Theoretical Open Price Calculator (TOPC) serves as a valuable tool for efficiently computing the Theoretical Open Price of securities on the ex-date of a Corporate Action. This notebook provides a quick efficient way of calculating theoretical open prices for various Corporate Actions, including Cash Dividends, Splits, Rights Issues, and Spin Offs.
+Theoretical Open Price Calculator (TOPC) serves as a valuable tool for efficiently computing the Theoretical Open Price of a security on the ex-date of a Corporate Action. This notebook provides a quick efficient way of calculating theoretical open prices for various Corporate Actions, including Cash Dividends, Splits, Rights Issues, and Spin Offs.
 
 **Who are the target users?**
 
@@ -17,6 +17,8 @@ git clone https://github.com/duffydata/corporate-action-helper.git
 
 **Dependency Management**
 We use Poetry for managing dependencies and creating a virtual Python Enviroment. However you can use pip and venv if preferred. 
+
+**install using Poetry**
 
 poetry env use python3.x  # use versions greater than 3.8
 poetry install
