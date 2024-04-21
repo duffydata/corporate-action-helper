@@ -41,10 +41,7 @@ To spin up a voila instance on a local host use the following command:
 
 poetry run voila CorporateActionCalculator.ipynb
  
-A local version of the notebook should be now automatically generated using Voila 
-
-he actual open price, such as supply and demand dynamics, sentiment, and economic data, fall outside the scope of this tool.
-
+A local version of the notebook should be now automatically generated using Voila. 
 ## How to use the Notebook 
 
 Simply find the type of Corporate Action and populate the fields to generate the theoretical open price
