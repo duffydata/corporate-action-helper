@@ -12,14 +12,13 @@ Please note the functionality of this notebook is centered around the calculatio
 
 # Step by Step Guide 
 
-**Clone Repository**
 ```
 git clone https://github.com/duffydata/corporate-action-helper.git 
 ```
 **Dependency Management**
 We use Poetry for managing dependencies and creating a virtual Python Enviroment. However you can use pip and venv if preferred. 
 
-**install using Poetry**
+**install using Poetry:**
 ```
 poetry env use python3.x  # use versions greater than 3.8
 poetry install
@@ -39,9 +38,9 @@ poetry add voila
 Voila is a great jupyter extension which used with Ipywidgets can easily productionise jupyter notebooks into interactive dashboards for the end user. 
 
 To spin up a voila instance on a local host use the following command: 
-
+```
 poetry run voila CorporateActionCalculator.ipynb
- 
+ ```
 A local version of the notebook should be now automatically generated using Voila. 
 ## How to use the Notebook 
 
