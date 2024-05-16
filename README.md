@@ -13,13 +13,14 @@ Please note the functionality of this notebook is centered around the calculatio
 # Step by Step Guide 
 
 **Clone Repository**
+```
 git clone https://github.com/duffydata/corporate-action-helper.git 
-
+```
 **Dependency Management**
 We use Poetry for managing dependencies and creating a virtual Python Enviroment. However you can use pip and venv if preferred. 
 
 **install using Poetry**
-
+```
 poetry env use python3.x  # use versions greater than 3.8
 poetry install
 poetry shell
@@ -29,7 +30,7 @@ jupyter nbextension enable --py widgetsnbextension --sys-prefix
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 poetry add voila
-
+```
 
 # Voila -  Lauching a Dashboard from a Jupyter Notebook 
 
