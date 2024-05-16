@@ -36,7 +36,7 @@ poetry add voila
 
 **Why do we use Voila?**
 
-Voila is a great jupyter extension which used with Ipywidgets can easily productionise jupyter notebooks into interactive dashboards for the end user. 
+Voila is a great jupyter extension which used with Ipywidgets can easily productionise jupyter notebooks into interactive web applications for the end user. 
 
 To spin up a voila instance on a local host use the following command: 
 ```
