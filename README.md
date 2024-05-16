@@ -16,6 +16,7 @@ Please note the functionality of this notebook is centered around the calculatio
 git clone https://github.com/duffydata/corporate-action-helper.git 
 ```
 **Dependency Management**
+
 We use Poetry for managing dependencies and creating a virtual Python Enviroment. However you can use pip and venv if preferred. 
 
 **install using Poetry:**
